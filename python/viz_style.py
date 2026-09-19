@@ -1,14 +1,8 @@
 """
 viz_style.py
 ============
-A small matplotlib theme + palette so every chart reads as one system.
-
-Colors come from a validated data-viz palette (colorblind-checked in both light
-and dark modes). Rules honored here:
-  * categorical hues assigned in a FIXED order, never cycled;
-  * sequential (magnitude) encodings use ONE blue hue, light -> dark;
-  * text stays in ink tokens, never the series color;
-  * recessive gridlines/axes, no chartjunk, no dual axes.
+matplotlib theme and color palette shared by the charts in eda.py. The palette
+was checked for colorblind safety in light and dark modes.
 """
 
 from __future__ import annotations
@@ -33,7 +27,7 @@ SERIES = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100",
 BLUE = SERIES[0]
 ACCENT = SERIES[0]
 
-# --- sequential blue ramp (magnitude) -------------------------------------- #
+# --- blue ramp for value-shaded bars & heatmaps ---------------------------- #
 BLUE_RAMP = ["#cde2fb", "#9ec5f4", "#6da7ec", "#3987e5",
              "#2a78d6", "#256abf", "#1c5cab", "#184f95", "#0d366b"]
 SEQ_BLUE = LinearSegmentedColormap.from_list(
@@ -45,7 +39,7 @@ SEQ_BLUE = LinearSegmentedColormap.from_list(
 GOOD = "#0ca30c"
 CRIT = "#d03b3b"
 
-# Fixed category -> hue mapping (identity is stable across every chart).
+# Each category keeps the same color across every chart.
 CATEGORY_COLORS = {
     "Furniture": SERIES[0],
     "Lighting": SERIES[1],

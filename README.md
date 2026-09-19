@@ -25,7 +25,7 @@ Over three years (Jan 2023 to Dec 2025) the business grew from $0.64M to $1.59M 
 Three findings drive the recommendations at the bottom:
 
 1. **Revenue is highly seasonal.** Every category except Outdoor peaks in Q4 (Nov-Dec); Outdoor peaks in summer (Jun-Aug). The two profiles are almost mirror images, which is a merchandising and inventory-planning opportunity.
-2. **Owned channels buy loyalty; paid channels buy volume.** Email and Referral customers are worth about $240-254 in lifetime revenue and repeat at roughly 41-44%, versus about $183-185 and 27-28% for Paid Search and Paid Social. Yet paid still accounts for about half of all acquisition.
+2. **Email and referral customers are worth far more than paid ones.** They bring in about $240-254 in lifetime revenue and repeat at roughly 41-44%, against about $183-185 and 27-28% for Paid Search and Paid Social, yet paid still accounts for about half of all acquisition.
 3. **A small core carries the business.** The top segment ("Champions", about 20% of customers) generates roughly 32% of all revenue.
 
 ---
@@ -163,7 +163,7 @@ Notes: customers are cleaned in place (standardized channels/states, validated e
 
 ## Exploratory analysis (Python)
 
-All charts are produced by [`python/eda.py`](python/eda.py) reading the SQL views, themed by [`python/viz_style.py`](python/viz_style.py). The visual approach is deliberate: the chart form is chosen by the data's job, categorical color uses a fixed category-to-hue map (never recycled), magnitude uses a single sequential blue, and there are no dual-axis charts (two measures of different scale become two aligned panels).
+All charts are produced by [`python/eda.py`](python/eda.py) reading the SQL views, themed by [`python/viz_style.py`](python/viz_style.py). Each chart type is matched to the question it answers, with a shared color palette so the set reads consistently.
 
 ### 1. Revenue grew about 2.5x with strong Q4 seasonality
 
@@ -199,7 +199,7 @@ An RFM (Recency, Frequency, Monetary) segmentation splits the base into actionab
 
 ![Channel value: volume vs. lifetime revenue](charts/06_channel_value.png)
 
-The tension is clear when volume and value sit side by side (no dual axis). Paid Search and Paid Social acquire the most customers (4,174 + 3,779) but sit at the bottom for lifetime value ($185 / $183) and repeat rate (27-28%). Email and Referral (highlighted) acquire far fewer people but are worth $238 / $254 each and repeat at 44% / 41%.
+The contrast is clear when volume and value sit side by side. Paid Search and Paid Social acquire the most customers (4,174 + 3,779) but sit at the bottom for lifetime value ($185 / $183) and repeat rate (27-28%). Email and Referral (highlighted) acquire far fewer people but are worth $238 / $254 each and repeat at 44% / 41%.
 
 | Channel | Customers | Avg LTV | Repeat rate |
 |---|---:|---:|---:|

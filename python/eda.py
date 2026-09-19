@@ -1,16 +1,9 @@
 """
 eda.py
 ======
-Exploratory data analysis for the Lumen & Loom pipeline. Connects read-only to
-the DuckDB warehouse built by scripts/build_database.py, pulls the analytical
-views, and renders publication-quality charts to charts/.
-
-Every chart follows one discipline (see python/viz_style.py):
-  * the form is chosen by the data's job (trend, mix, magnitude, retention...);
-  * categorical color is a FIXED category->hue map, never cycled;
-  * magnitude uses ONE sequential blue, light->dark;
-  * no dual axes: two measures of different scale become two panels;
-  * text stays in ink tokens; marks stay thin; grids stay recessive.
+Reads the analysis views from the DuckDB warehouse (built by
+scripts/build_database.py) and writes the chart PNGs into charts/. The shared
+matplotlib theme and palette live in python/viz_style.py.
 
 Run:  python python/eda.py   (from the repo root, after build_database.py)
 """
@@ -41,10 +34,7 @@ def q(sql: str) -> pd.DataFrame:
     return con.execute(sql).df()
 
 
-# =========================================================================== #
-# 1. Monthly net revenue: trend over time (line + 3-month average)
-#    Job: change over time. One measure -> one hue, two shades.
-# =========================================================================== #
+# --- 1. Monthly net revenue, with a 3-month moving average ------------------
 def chart_monthly_revenue() -> None:
     m = q("SELECT * FROM v_monthly_revenue ORDER BY order_month")
     m["order_month"] = pd.to_datetime(m["order_month"])
@@ -79,10 +69,7 @@ def chart_monthly_revenue() -> None:
     vs.save(fig, "01_monthly_revenue")
 
 
-# =========================================================================== #
-# 2. Revenue by category over time: mix + seasonality (stacked area)
-#    Job: composition over time. Categorical -> fixed category->hue map.
-# =========================================================================== #
+# --- 2. Revenue by category over time (stacked area) ------------------------
 def chart_category_area() -> None:
     cm = q("SELECT * FROM v_category_month")
     piv = cm.pivot(index="order_month", columns="category", values="net_revenue").fillna(0)
@@ -104,7 +91,7 @@ def chart_category_area() -> None:
     ax.set_ylim(0, piv.sum(axis=1).max() * 1.08)
     ax.margins(x=0.01)
 
-    # legend in fixed category order (identity, matches stack colors)
+    # legend follows the same category order as the stack
     handles, labels = ax.get_legend_handles_labels()
     ax.legend(handles[::-1], labels[::-1], loc="upper left", ncols=3,
               columnspacing=1.2, handlelength=1.1)
@@ -114,10 +101,7 @@ def chart_category_area() -> None:
     vs.save(fig, "02_category_revenue_area")
 
 
-# =========================================================================== #
-# 3. Category seasonality: where each category's year lands (heatmap)
-#    Job: magnitude across two categoricals -> sequential blue.
-# =========================================================================== #
+# --- 3. Category seasonality heatmap ----------------------------------------
 def chart_seasonality_heatmap() -> None:
     cs = q("SELECT * FROM v_category_seasonality")
     piv = cs.pivot(index="category", columns="month_no", values="pct_of_annual")
@@ -153,11 +137,7 @@ def chart_seasonality_heatmap() -> None:
     vs.save(fig, "03_category_seasonality_heatmap")
 
 
-# =========================================================================== #
-# 4. Cohort retention: quarterly acquisition cohorts (heatmap)
-#    Job: magnitude across cohort x age -> sequential blue. Month 0 (=100%)
-#    omitted so the decay gradient is legible.
-# =========================================================================== #
+# --- 4. Cohort retention heatmap (month 0 = 100% omitted) -------------------
 def chart_cohort_heatmap() -> None:
     co = q("SELECT * FROM v_cohort_retention")
     co["cohort_month"] = pd.to_datetime(co["cohort_month"])
@@ -208,10 +188,7 @@ def chart_cohort_heatmap() -> None:
     vs.save(fig, "04_cohort_retention_heatmap")
 
 
-# =========================================================================== #
-# 5. RFM segments: revenue contribution by segment (horizontal bars)
-#    Job: magnitude across identity -> sequential blue by value; direct labels.
-# =========================================================================== #
+# --- 5. RFM segments by revenue contribution (horizontal bars) --------------
 def chart_rfm_segments() -> None:
     seg = q("SELECT * FROM v_rfm_segments ORDER BY revenue")
     n = len(seg)
@@ -241,11 +218,7 @@ def chart_rfm_segments() -> None:
     vs.save(fig, "05_rfm_segments")
 
 
-# =========================================================================== #
-# 6. Channel value: volume vs. loyalty (two panels, shared channel order)
-#    Job: two measures of different scale -> NO dual axis. Two aligned panels,
-#    with owned channels (Email/Referral) emphasized in both.
-# =========================================================================== #
+# --- 6. Channel value: customers vs. lifetime revenue (two panels) ----------
 def chart_channel_value() -> None:
     ch = q("SELECT * FROM v_channel_performance ORDER BY avg_ltv")
     highlight = {"Email", "Referral"}
@@ -283,10 +256,7 @@ def chart_channel_value() -> None:
     vs.save(fig, "06_channel_value")
 
 
-# =========================================================================== #
-# 7. Top products: the revenue leaders (horizontal bars)
-#    Job: magnitude across identity -> sequential blue by value.
-# =========================================================================== #
+# --- 7. Top 10 products by revenue (horizontal bars) ------------------------
 def chart_top_products() -> None:
     tp = q("SELECT * FROM v_top_products LIMIT 10").sort_values("net_revenue")
     n = len(tp)
