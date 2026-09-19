@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# DuckDB warehouse (rebuilt from scripts, not versioned)
+*.duckdb
+*.duckdb.wal
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Note: data/raw/*.csv and charts/*.png are committed on purpose
+# so the repo works without a local rebuild.

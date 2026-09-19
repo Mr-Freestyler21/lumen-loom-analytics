@@ -1,0 +1,6 @@
+# Core stack for the Lumen & Loom analytics project.
+# Pinned to the versions the project was built and validated against.
+numpy==2.4.3
+pandas==3.0.1
+matplotlib==3.10.8
+duckdb==1.5.5

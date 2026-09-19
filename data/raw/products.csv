@@ -1,0 +1,301 @@
+product_id,product_name,category,subcategory,unit_cost,list_price
+1000,Sofa 795,Furniture,Sofas,113.31,184.21
+1001,Table 215,Furniture,Tables,120.64,206.38
+1002,Sofa 598,Furniture,Sofas,113.16,$230.52
+1003,Bed 799,Furniture,Beds,161.61,290.34
+1004,Sofa 522,Furniture,Sofas,399.27,720.76
+1005,Bed 729,FURNITURE,Beds,217.36,455.04
+1006,Storage 279,Furniture,Storage,192.62,$334.33
+1007,Sofa 225,Furniture,Sofas,306.14,534.27
+1008,Sofa 602,Furniture,Sofas,299.25,596.47
+1009,Storage 152,Furniture,Storage,229.8,398.42
+1010,Table 831,Furniture,Tables,152.57,-19.99
+1011,Storage 236,Furniture,Storage,260.43,$476.93
+1012,Chair 206,furniture,Chairs,173.15,282.08
+1013,Bed 503,Furniture,Beds,174.03,377.93
+1014,Table 258,Furniture,Tables,105.13,192.73
+1015,Bed 175,FURNITURE,Beds,133.92,298.32
+1016,Bed 253,Furniture,Beds,146.58,345.25
+1017,Table 803,Furniture,Tables,326.76,690.25
+1018,Storage 494,Furniture,Storage,180.85,340.7
+1019,Sofa 352, Furniture ,Sofas,252.34,$418.34
+1020,Sofa 598,Furniture,Sofas,396.54,649.45
+1021,Storage 330,Furniture,Storage,188.8,305.26
+1022,Storage 900,Furniture,Storage,145.83,264.03
+1023,Bed 771,Furniture,Beds,361.0,615.81
+1024,Chair 638,FURNITURE,Chairs,97.22,186.9
+1025,Sofa 306,Furniture,Sofas,408.14,730.31
+1026,Storage 822,Furniture,Storage,332.86,$549.71
+1027,Sofa 539,Furniture,Sofas,213.37,502.09
+1028,Storage 195,furniture,Storage,140.97,232.4
+1029,Bed 805,FURNITURE,Beds,251.07,538.17
+1030,Storage 880,Furniture,Storage,528.54,$890.55
+1031,Chair 312,Furniture,Chairs,79.96,148.38
+1032,Chair 378,Furniture,Chairs,135.85,301.4
+1033,Bed 149,Furniture,Beds,187.01,374.98
+1034,Bed 886,Furniture,Beds,142.53,$266.79
+1035,Sofa 435,Furniture,Sofas,193.96,320.61
+1036,Storage 911,furniture,Storage,114.61,199.05
+1037,Chair 562,Furniture,Chairs,325.7,$688.15
+1038,Sofa 474,Furniture,Sofas,289.57,583.94
+1039,Bed 953,FURNITURE,Beds,217.24,368.38
+1040,Table 578,Furniture,Tables,171.82,307.39
+1041,Bed 185,FURNITURE,Beds,575.44,940.61
+1042,Table 803,Furniture,Tables,114.85,$261.61
+1043,Sofa 614,furniture,Sofas,66.49,128.25
+1044,Bed 178,Furniture,Beds,255.87,525.69
+1045,Bed 343,Furniture,Beds,151.46,249.43
+1046,Sofa 755,furniture,Sofas,121.47,245.26
+1047,Storage 955,Furniture,Storage,275.29,512.02
+1048,Sofa 508,FURNITURE,Sofas,108.87,226.64
+1049,Table 199,Furniture,Tables,139.94,252.99
+1050,Sconce 906,Lighting,Sconces,48.4,105.3
+1051,Floor Lamp 132,Lighting,Floor Lamps,66.11,141.34
+1052,Sconce 820,Lighting,Sconces,21.44,50.1
+1053,Sconce 553,Lighting,Sconces,91.97,162.22
+1054,Table Lamp 738,Lighting,Table Lamps,58.3,136.06
+1055,Pendant 255,LIGHTING,Pendants,44.91,77.85
+1056,Pendant 230,Lighting,Pendants,101.25,184.15
+1057,Pendant 557,Lighting,Pendants,26.21,55.1
+1058,Floor Lamp 649,Lighting,Floor Lamps,53.6,99.69
+1059,Pendant 476,Lighting,Pendants,104.31,186.14
+1060,Sconce 384,Lighting,Sconces,46.16,$93.79
+1061,Sconce 896,Lighting,Sconces,51.79,$107.24
+1062,Table Lamp 204,LIGHTING,Table Lamps,46.71,95.94
+1063,Table Lamp 767,Lighting,Table Lamps,48.12,$106.76
+1064,Sconce 428,LIGHTING,Sconces,28.34,50.83
+1065,Floor Lamp 676,LIGHTING,Floor Lamps,30.57,67.45
+1066,Floor Lamp 599,Lighting,Floor Lamps,24.18,48.51
+1067,Table Lamp 489,Lighting,Table Lamps,74.42,173.5
+1068,Table Lamp 540,LIGHTING,Table Lamps,89.68,152.33
+1069,Pendant 702,Lighting,Pendants,48.15,98.73
+1070,Sconce 790,Lighting,Sconces,99.34,168.36
+1071,Floor Lamp 577,Lighting,Floor Lamps,19.29,42.34
+1072,Pendant 122,Lighting,Pendants,21.4,50.77
+1073,Sconce 669,Lighting,Sconces,16.15,26.88
+1074,Table Lamp 202,Lighting,Table Lamps,112.94,183.95
+1075,Floor Lamp 759,Lighting,Floor Lamps,19.01,30.81
+1076,Table Lamp 470,Lighting,Table Lamps,41.12,67.97
+1077,Table Lamp 435,Lighting,Table Lamps,54.12,94.16
+1078,Pendant 819,Lighting,Pendants,25.32,60.15
+1079,Sconce 126,Lighting,Sconces,24.45,41.41
+1080,Floor Lamp 368,Lighting,Floor Lamps,11.74,25.66
+1081,Pendant 745,lighting,Pendants,54.91,88.64
+1082,Table Lamp 452, Lighting ,Table Lamps,28.63,66.05
+1083,Pendant 507,Lighting,Pendants,53.52,$93.83
+1084,Pendant 906,Lighting,Pendants,14.9,26.21
+1085,Table Lamp 369,Lighting,Table Lamps,15.57,32.67
+1086,Sconce 804,Lighting,Sconces,47.6,81.66
+1087,Pendant 266,Lighting,Pendants,65.66,125.65
+1088,Floor Lamp 962,Lighting,Floor Lamps,57.2,111.93
+1089,Table Lamp 145,Lighting,Table Lamps,15.6,33.8
+1090,Table Lamp 474,LIGHTING,Table Lamps,55.89,107.15
+1091,Pendant 487,Lighting,Pendants,30.93,66.03
+1092,Pendant 305,LIGHTING,Pendants,70.98,126.23
+1093,Pendant 224,Lighting,Pendants,31.94,72.25
+1094,Table Lamp 611,lighting,Table Lamps,22.44,41.26
+1095,Floor Lamp 869,Lighting,Floor Lamps,66.47,107.74
+1096,Table Lamp 386,Lighting,Table Lamps,36.63,75.76
+1097,Sconce 411,Lighting,Sconces,68.92,121.4
+1098,Table Lamp 633,lighting,Table Lamps,57.66,110.58
+1099,Floor Lamp 114,Lighting,Floor Lamps,89.61,0.0
+1100,Rug 345,Textiles,Rugs,20.97,35.71
+1101,Rug 307,textiles,Rugs,62.68,125.55
+1102,Bedding 609,Textiles,Bedding,27.99,66.25
+1103,Throw 466,Textiles,Throws,22.58,$50.19
+1104,Bedding 279,TEXTILES,Bedding,29.16,58.82
+1105,Bedding 757,Textiles,Bedding,65.33,$110.15
+1106,Rug 283,Textiles,Rugs,47.93,85.0
+1107,Bedding 386,Textiles,Bedding,106.9,0.0
+1108,Curtain 439,Textiles,Curtains,32.89,67.42
+1109,Rug 188,Textiles,Rugs,35.64,77.95
+1110,Throw 333,Textiles,Throws,31.42,60.52
+1111,Rug 365,Textiles,Rugs,35.1,56.94
+1112,Throw 223,Textiles,Throws,99.97,183.98
+1113,Rug 327,Textiles,Rugs,32.22,67.24
+1114,Rug 783,Textiles,Rugs,43.47,$72.55
+1115,Rug 860,Textiles,Rugs,19.78,$35.19
+1116,Bedding 405,Textiles,Bedding,86.66,142.54
+1117,Curtain 565,Textiles,Curtains,52.91,118.53
+1118,Rug 533,Textiles,Rugs,50.37,107.03
+1119,Rug 924,Textiles,Rugs,37.15,70.58
+1120,Rug 835,Textiles,Rugs,8.66,20.13
+1121,Bedding 659,Textiles,Bedding,21.26,41.88
+1122,Throw 993,Textiles,Throws,19.42,43.11
+1123,Rug 928,TEXTILES,Rugs,14.57,$26.98
+1124,Throw 408,Textiles,Throws,33.19,65.08
+1125,Curtain 991,Textiles,Curtains,20.99,42.55
+1126,Cushion 605,Textiles,Cushions,48.79,88.8
+1127,Throw 495,Textiles,Throws,29.41,53.22
+1128,Cushion 277,Textiles,Cushions,30.44,68.28
+1129,Curtain 354,Textiles,Curtains,38.12,68.04
+1130,Bedding 329,Textiles,Bedding,25.8,46.31
+1131,Bedding 886,Textiles,Bedding,39.3,81.13
+1132,Throw 668,Textiles,Throws,28.19,47.89
+1133,Cushion 787,Textiles,Cushions,58.26,106.12
+1134,Throw 626,TEXTILES,Throws,31.04,68.44
+1135,Throw 816,Textiles,Throws,60.19,120.87
+1136,Cushion 238,Textiles,Cushions,55.47,127.84
+1137,Curtain 343,Textiles,Curtains,48.66,106.88
+1138,Curtain 550, Textiles ,Curtains,58.19,111.2
+1139,Rug 978, Textiles ,Rugs,51.86,93.53
+1140,Bedding 848,Textiles,Bedding,18.61,32.07
+1141,Curtain 229,Textiles,Curtains,32.6,75.19
+1142,Rug 492,Textiles,Rugs,27.88,61.46
+1143,Curtain 839,Textiles,Curtains,21.83,38.47
+1144,Curtain 553,Textiles,Curtains,63.81,138.22
+1145,Bedding 177,Textiles,Bedding,24.13,$39.04
+1146,Rug 503,Textiles,Rugs,21.04,45.89
+1147,Cushion 359,Textiles,Cushions,16.89,$30.05
+1148,Cushion 640,textiles,Cushions,13.3,22.73
+1149,Bedding 343,Textiles,Bedding,27.09,62.54
+1150,Glassware 904,KITCHEN & DINING,Glassware,29.94,58.12
+1151,Dinnerware 293,Kitchen & Dining,Dinnerware,49.95,113.56
+1152,Glassware 258,Kitchen & Dining,Glassware,23.44,$54.38
+1153,Utensil 648,Kitchen & Dining,Utensils,19.3,43.72
+1154,Dinnerware 209,Kitchen & Dining,Dinnerware,36.51,58.95
+1155,Cookware 391,Kitchen & Dining,Cookware,17.02,27.65
+1156,Dinnerware 972,Kitchen & Dining,Dinnerware,30.23,62.44
+1157,Utensil 878,kitchen & dining,Utensils,15.56,28.47
+1158,Glassware 451,kitchen & dining,Glassware,7.3,$13.23
+1159,Utensil 410,KITCHEN & DINING,Utensils,26.29,$52.81
+1160,Utensil 779,Kitchen & Dining,Utensils,19.71,$35.59
+1161,Utensil 452,Kitchen & Dining,Utensils,30.88,55.53
+1162,Dinnerware 768,Kitchen & Dining,Dinnerware,6.44,11.15
+1163,Utensil 435,Kitchen & Dining,Utensils,39.74,76.53
+1164,Cookware 966,Kitchen & Dining,Cookware,21.12,42.68
+1165,Glassware 982,Kitchen & Dining,Glassware,33.33,75.12
+1166,Cookware 355,Kitchen & Dining,Cookware,33.18,$64.72
+1167,Glassware 700,Kitchen & Dining,Glassware,22.32,42.56
+1168,Glassware 269,Kitchen & Dining,Glassware,7.14,12.28
+1169,Glassware 685,Kitchen & Dining,Glassware,52.67,123.3
+1170,Dinnerware 961,Kitchen & Dining,Dinnerware,18.07,42.11
+1171,Utensil 205,Kitchen & Dining,Utensils,34.55,$57.28
+1172,Utensil 500,Kitchen & Dining,Utensils,26.7,55.95
+1173,Glassware 879,Kitchen & Dining,Glassware,34.96,57.43
+1174,Dinnerware 590,Kitchen & Dining,Dinnerware,17.44,$33.76
+1175,Dinnerware 425,Kitchen & Dining,Dinnerware,35.19,69.11
+1176,Cookware 131,Kitchen & Dining,Cookware,18.55,35.46
+1177,Cookware 312,Kitchen & Dining,Cookware,23.97,44.92
+1178,Glassware 662,Kitchen & Dining,Glassware,20.37,$33.41
+1179,Dinnerware 303,Kitchen & Dining,Dinnerware,37.91,71.79
+1180,Cookware 687,Kitchen & Dining,Cookware,9.32,20.54
+1181,Utensil 196,Kitchen & Dining,Utensils,9.79,15.82
+1182,Utensil 479,kitchen & dining,Utensils,16.08,37.38
+1183,Dinnerware 906,Kitchen & Dining,Dinnerware,16.01,27.77
+1184,Cookware 869,Kitchen & Dining,Cookware,26.68,43.58
+1185,Glassware 830,Kitchen & Dining,Glassware,42.07,73.93
+1186,Dinnerware 663,Kitchen & Dining,Dinnerware,31.89,69.4
+1187,Cookware 893,Kitchen & Dining,Cookware,36.23,70.25
+1188,Cookware 377,kitchen & dining,Cookware,33.55,64.99
+1189,Cookware 832,Kitchen & Dining,Cookware,11.61,25.5
+1190,Glassware 316,KITCHEN & DINING,Glassware,21.99,43.31
+1191,Utensil 312,Kitchen & Dining,Utensils,21.22,35.76
+1192,Dinnerware 899,Kitchen & Dining,Dinnerware,12.92,30.54
+1193,Dinnerware 466,kitchen & dining,Dinnerware,36.19,77.83
+1194,Utensil 994,Kitchen & Dining,Utensils,33.2,70.09
+1195,Dinnerware 409, Kitchen & Dining ,Dinnerware,10.78,24.97
+1196,Cookware 849,Kitchen & Dining,Cookware,12.0,25.37
+1197,Dinnerware 709,Kitchen & Dining,Dinnerware,12.44,$26.30
+1198,Glassware 327,Kitchen & Dining,Glassware,18.92,40.9
+1199,Dinnerware 993,KITCHEN & DINING,Dinnerware,25.31,57.8
+1200,Vase 434,Decor,Vases,35.74,60.33
+1201,Vase 983,Decor,Vases,23.18,$40.95
+1202,Candle 520,decor,Candles,6.51,$11.24
+1203,Mirror 339,Decor,Mirrors,14.83,29.64
+1204,Vase 245,Decor,Vases,15.27,25.88
+1205,Candle 145,Decor,Candles,30.82,69.16
+1206,Vase 754,Decor,Vases,33.34,57.08
+1207,Planter 314,Decor,Planters,15.02,26.01
+1208,Mirror 762,Decor,Mirrors,29.67,48.47
+1209,Vase 984,Decor,Vases,12.69,21.33
+1210,Mirror 444, Decor ,Mirrors,5.64,11.58
+1211,Planter 845,Decor,Planters,21.84,$42.08
+1212,Planter 877,Decor,Planters,17.72,31.09
+1213,Wall Art 770,Decor,Wall Art,16.0,34.1
+1214,Wall Art 961,Decor,Wall Art,31.76,$61.65
+1215,Wall Art 281,DECOR,Wall Art,31.34,69.93
+1216,Mirror 928,Decor,Mirrors,18.1,40.76
+1217,Vase 166,Decor,Vases,23.78,43.54
+1218,Candle 569, Decor ,Candles,5.35,11.78
+1219,Candle 238,Decor,Candles,49.85,84.3
+1220,Wall Art 376,DECOR,Wall Art,33.07,0.0
+1221,Wall Art 659,Decor,Wall Art,41.8,75.32
+1222,Mirror 501,Decor,Mirrors,14.45,$25.41
+1223,Planter 524,Decor,Planters,33.24,63.23
+1224,Vase 164,DECOR,Vases,25.9,50.42
+1225,Candle 262,Decor,Candles,31.58,55.03
+1226,Wall Art 612,Decor,Wall Art,18.03,37.15
+1227,Wall Art 782,Decor,Wall Art,31.63,67.28
+1228,Mirror 993,Decor,Mirrors,34.65,57.12
+1229,Mirror 848,Decor,Mirrors,19.25,32.01
+1230,Vase 388, Decor ,Vases,21.08,42.02
+1231,Candle 397,Decor,Candles,26.83,57.62
+1232,Vase 119,Decor,Vases,19.49,45.01
+1233,Planter 119,Decor,Planters,39.9,$78.46
+1234,Mirror 902,Decor,Mirrors,14.08,31.28
+1235,Vase 751,Decor,Vases,15.77,30.6
+1236,Mirror 141,Decor,Mirrors,33.49,61.03
+1237,Candle 828,Decor,Candles,26.88,57.29
+1238,Candle 508,Decor,Candles,27.78,60.35
+1239,Wall Art 931,decor,Wall Art,9.68,16.1
+1240,Mirror 170,Decor,Mirrors,44.93,79.38
+1241,Mirror 558,DECOR,Mirrors,10.06,22.11
+1242,Candle 947,Decor,Candles,24.16,40.92
+1243,Candle 933,Decor,Candles,32.53,74.33
+1244,Wall Art 164,Decor,Wall Art,40.54,0.0
+1245,Vase 501,Decor,Vases,9.85,19.03
+1246,Vase 718,Decor,Vases,22.96,45.66
+1247,Candle 128,Decor,Candles,24.0,$56.78
+1248,Wall Art 454,Decor,Wall Art,11.51,27.13
+1249,Planter 478,Decor,Planters,7.06,13.06
+1250,String Light 808,Outdoor,String Lights,34.35,67.49
+1251,String Light 402,Outdoor,String Lights,148.56,306.45
+1252,Planter 526,OUTDOOR,Planters,56.09,128.01
+1253,Grill 551,Outdoor,Grills,40.75,$79.95
+1254,String Light 450,Outdoor,String Lights,50.49,$118.46
+1255,Grill 711,OUTDOOR,Grills,99.07,202.27
+1256,Grill 424,Outdoor,Grills,27.66,-19.99
+1257,Grill 211,Outdoor,Grills,93.35,166.09
+1258,Patio Set 566,outdoor,Patio Sets,49.55,81.83
+1259,String Light 197,Outdoor,String Lights,14.19,$28.62
+1260,Planter 394,Outdoor,Planters,152.02,245.93
+1261,String Light 578,Outdoor,String Lights,49.62,82.82
+1262,Grill 824,Outdoor,Grills,107.09,194.26
+1263,Grill 818,OUTDOOR,Grills,153.49,305.24
+1264,Planter 338,Outdoor,Planters,103.82,173.4
+1265,Grill 551,OUTDOOR,Grills,38.06,77.61
+1266,Planter 840,Outdoor,Planters,96.12,163.57
+1267,Grill 252,OUTDOOR,Grills,74.18,$167.44
+1268,Planter 152,OUTDOOR,Planters,36.91,78.24
+1269,Planter 942,OUTDOOR,Planters,78.17,138.7
+1270,Grill 193,outdoor,Grills,92.48,208.86
+1271,Grill 506,Outdoor,Grills,56.22,100.21
+1272,Patio Set 687,Outdoor,Patio Sets,236.63,$415.35
+1273,String Light 387,outdoor,String Lights,125.19,253.54
+1274,Patio Set 277,Outdoor,Patio Sets,68.96,130.91
+1275,Planter 628,Outdoor,Planters,110.53,256.0
+1276,Grill 987,Outdoor,Grills,172.11,301.79
+1277,String Light 881,Outdoor,String Lights,82.79,139.42
+1278,Grill 294,Outdoor,Grills,136.08,278.96
+1279,Grill 184,Outdoor,Grills,112.2,182.61
+1280,Patio Set 376,Outdoor,Patio Sets,121.8,289.33
+1281,Planter 780,Outdoor,Planters,74.59,142.25
+1282,Grill 907,Outdoor,Grills,11.12,$22.67
+1283,Patio Set 786, Outdoor ,Patio Sets,66.3,140.3
+1284,Patio Set 278,Outdoor,Patio Sets,37.7,64.4
+1285,Patio Set 720,Outdoor,Patio Sets,66.47,146.39
+1286,String Light 358,Outdoor,String Lights,52.57,120.08
+1287,Grill 867,outdoor,Grills,58.46,94.62
+1288,String Light 146,Outdoor,String Lights,103.98,$219.99
+1289,Planter 568,Outdoor,Planters,59.62,120.94
+1290,Patio Set 641,Outdoor,Patio Sets,91.61,203.52
+1291,Planter 785,Outdoor,Planters,153.1,284.35
+1292,Grill 109,Outdoor,Grills,95.55,214.83
+1293,Patio Set 812,Outdoor,Patio Sets,107.69,202.73
+1294,Grill 937,Outdoor,Grills,25.06,53.63
+1295,String Light 937,Outdoor,String Lights,37.55,62.58
+1296,Patio Set 721,OUTDOOR,Patio Sets,82.17,152.95
+1297,Patio Set 960,Outdoor,Patio Sets,19.3,31.15
+1298,Grill 584,Outdoor,Grills,45.27,84.37
+1299,Grill 747,Outdoor,Grills,100.63,212.02
